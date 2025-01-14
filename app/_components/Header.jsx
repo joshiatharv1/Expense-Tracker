@@ -17,7 +17,7 @@ export default function Header() {
       height={100}
        />
        {isSignedIn ? <UserButton/>: 
-       <Link href={'/sign-in'}>
+       <Link href={'/dashboard'}>
        <Button>Getting Started</Button>
        </Link>
        }       
